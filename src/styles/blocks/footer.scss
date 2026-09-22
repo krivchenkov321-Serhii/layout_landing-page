@@ -1,0 +1,17 @@
+.footer {
+  z-index: -1;
+  background-image: url(../images/footer.png);
+  background-size: cover;
+  background-position: 83%;
+  height: 200px;
+  width: 100%;
+
+  @include on-tablet {
+    height: 480px;
+    background-position: 81%;
+  }
+
+  @include on-desktop {
+    min-height: 555px;
+  }
+}
