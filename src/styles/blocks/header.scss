@@ -3,7 +3,8 @@
   background-size: cover;
   background-position: 86%; // розміщує картинку фону згідно макету
 
-  @include on-tablet { // розміщує картинку фону згідно макету
+  @include on-tablet {
+    // розміщує картинку фону згідно макету
     background-position: center;
   }
 

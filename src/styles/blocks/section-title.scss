@@ -11,7 +11,8 @@
   @include on-tablet {
     font-size: 48px;
 
-    &--margin-bottom-the-details { // для заголовка в the details
+    &--margin-bottom-the-details {
+      // для заголовка в the details
       margin-bottom: 64px;
     }
   }
@@ -19,21 +20,25 @@
   @include on-desktop {
     font-size: 64px;
 
-    &--margin-bottom-the-details { // для заголовка в the details
+    &--margin-bottom-the-details {
+      // для заголовка в the details
       margin-bottom: 48px;
     }
 
-    &--font-style-contact-us { // для заголовка в contact us
+    &--font-style-contact-us {
+      // для заголовка в contact us
       font-size: 48px;
       font-weight: 600;
     }
 
-    &--margin-bottom-compare-bikes { // для заголовка в compare bikes
+    &--margin-bottom-compare-bikes {
+      // для заголовка в compare bikes
       margin-bottom: 56px;
     }
   }
 
-  &--align--left { // для заголовка в move free
+  &--align--left {
+    // для заголовка в move free
     text-align-last: left;
     margin-bottom: 32px;
   }

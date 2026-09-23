@@ -13,8 +13,9 @@
     display: flex;
     gap: 24px;
 
-    @include on-tablet { // відстань між іконками на планшеті та десктопі
-    gap: 32px;
+    @include on-tablet {
+      // відстань між іконками на планшеті та десктопі
+      gap: 32px;
     }
   }
 
@@ -25,10 +26,11 @@
   &__logo {
     height: 38px;
 
-    @include on-tablet { // зміна розміру лого на планшеті та десктопі
+    @include on-tablet {
+      // зміна розміру лого на планшеті та десктопі
       height: 56px;
 
-    @include hover(transform, scale(1.2));
+      @include hover(transform, scale(1.2));
     }
   }
 }
